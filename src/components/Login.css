@@ -1,0 +1,9 @@
+.navOpen {
+  transition: transform 0.2s;
+}
+.slideOut {
+  transform: translate(-100%);
+}
+.slideIn {
+  transform: translate(0%);
+}
