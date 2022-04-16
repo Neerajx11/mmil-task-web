@@ -116,12 +116,12 @@ const Login = () => {
                   placeholder="Enter your password"
                 />
                 {isPassVisible ? (
-                  <EyeOffIcon
+                  <EyeIcon
                     onClick={toggleIsPassVisible}
                     className="h-5 w-5 -ml-8 cursor-pointer"
                   />
                 ) : (
-                  <EyeIcon
+                  <EyeOffIcon
                     onClick={toggleIsPassVisible}
                     className="h-5 w-5 -ml-8 cursor-pointer"
                   />
